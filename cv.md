@@ -34,4 +34,28 @@ console.log(merge([1,2,3,0,0,0], 3, [2,5,6], 3))
 //Output: [1,2,2,3,5,6]
 ```
 
+## Education
 
+- **Belarusian National Technical University**,
+
+  Building Construction Technology, Engineer
+
+  Activities and societies: I've taken part in scientific conferences in mathematics. I had a scientific work on soil mechanics, which was published and submitted to the BNTU University repository. I've taken part in chess competition.
+
+- **Rolling Scopes School**
+
+  JavaScript/Front-end 2023Q4
+
+  - [certificate](./assets/certificateRS.jpg)
+
+## My projects
+
+- [nonograms game](https://kat2709.github.io/nonograms-game/)
+- [memory game](https://kat2709.github.io/memory-game/)
+
+## Languages
+
+- Russian (native)
+- English (A2+)
+  [certificate](./assets/certificateEng.jpg)
+- Polish (A2)
