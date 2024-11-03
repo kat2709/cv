@@ -56,6 +56,6 @@ console.log(merge([1,2,3,0,0,0], 3, [2,5,6], 3))
 ## Languages
 
 - Russian (native)
-- English (A2+)
+- English (B1)
   [certificate](./assets/certificateEng.jpg)
 - Polish (A2)
