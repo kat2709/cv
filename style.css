@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 800px;
+  background-color: #c8c8c8;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 64px;
+  color: #fdbe00;
+}
+
+.dark-title {
+  color: #000000;
+  margin-left: 50px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  outline: 5px solid #fdbe00;
+  background-image: url(./assets/photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
