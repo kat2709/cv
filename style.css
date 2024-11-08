@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -24,10 +25,23 @@ h1 {
   color: #ff9500;
 }
 
+.title-box {
+  display: flex;
+  align-items: center;
+}
+
 .dark-title {
   font-size: 40px;
   color: #000000;
   margin-left: 170px;
+}
+
+.github-header {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-image: url(./assets/github_header.svg);
+  background-size: contain;
 }
 
 .photo {
@@ -44,8 +58,8 @@ main {
   border-radius: 15px;
   padding: 20px 0;
   margin-top: -40px;
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   font-family: "Montserrat";
   font-size: 18px;
   display: flex;
@@ -106,6 +120,7 @@ h3 {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .project {
@@ -114,8 +129,18 @@ h3 {
   border-radius: 10px;
   margin: 15px auto;
   width: 240px;
-  height: 145px;
+  height: 135px;
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.project:hover {
+  outline: 3px solid #ffd148;
+  transform: scale(1.05);
+  transition: 0.7s linear;
+  opacity: 1;
 }
 
 .coffee_house {
@@ -191,6 +216,19 @@ h3 {
   background-image: url(https://www.codewars.com/users/kat2709/badges/small);
 }
 
+.wakatime {
+  width: 180px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://wakatime.com/badge/user/018e5b54-8164-4ab0-bab3-9f87d3fbdcdb.svg);
+}
+
+.solving-platf:hover {
+  transform: scale(1.05);
+  transition: 0.7s linear;
+}
+
 h4 {
   font-size: 20px;
   font-family: "Inter";
@@ -210,7 +248,7 @@ h5 {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 7px;
 }
 
 .sertf {
@@ -221,6 +259,14 @@ h5 {
   width: 260px;
   height: 160px;
   background-size: contain;
+  opacity: 0.9;
+}
+
+.sertf:hover {
+  outline: 3px solid #ffd148;
+  transform: scale(1.05);
+  transition: 0.7s linear;
+  opacity: 1;
 }
 
 .rss-certf {
@@ -229,4 +275,16 @@ h5 {
 
 .english-certf {
   background-image: url(./assets/certificate/certificateEng.jpg);
+}
+
+.github {
+  cursor: pointer;
+}
+
+.github p {
+  color: #ffffff;
+}
+
+.github p:hover {
+  color: #ffd148;
 }

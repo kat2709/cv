@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link type="Image/x-icon" href="./assets/favicon.svg" rel="icon" />
     <link rel="stylesheet" href="style.css" />
     <title>CV</title>
   </head>
@@ -16,7 +17,12 @@
     <header>
       <div class="title">
         <h1>Katerina Rubchenko</h1>
-        <h1 class="dark-title">Front End Developer</h1>
+        <div class="title-box">
+          <h1 class="dark-title">Front End Developer</h1>
+          <a href="https://github.com/kat2709" target="_blank">
+            <div class="github-header"></div>
+          </a>
+        </div>
       </div>
       <div class="photo"></div>
     </header>
@@ -83,15 +89,37 @@
         <div>
           <h3>My Projects</h3>
           <div class="projects-box">
-            <div class="project coffee_house"></div>
-            <div class="project library"></div>
-            <div class="project nonogram"></div>
-            <div class="project memory-game"></div>
-            <div class="project hangman-game"></div>
-            <div class="project snake-game"></div>
-            <div class="project img-gallery"></div>
-            <div class="project audio-player"></div>
-            <div class="project tip-calc"></div>
+            <a
+              href="https://kat2709.github.io/coffee-house/coffee-house/"
+              target="_blank"
+              ><div class="project coffee_house"></div
+            ></a>
+            <a href="https://kat2709.github.io/library/" target="_blank"
+              ><div class="project library"></div
+            ></a>
+            <a href="https://kat2709.github.io/nonograms-game/" target="_blank"
+              ><div class="project nonogram"></div
+            ></a>
+            <a href="https://kat2709.github.io/memory-game/" target="_blank"
+              ><div class="project memory-game"></div
+            ></a>
+            <a href="https://kat2709.github.io/hangman-game/" target="_blank"
+              ><div class="project hangman-game"></div
+            ></a>
+            <a
+              href="https://kat2709.github.io/snake-game/snake-game/"
+              target="_blank"
+              ><div class="project snake-game"></div
+            ></a>
+            <a href="https://kat2709.github.io/image-gallery/" target="_blank"
+              ><div class="project img-gallery"></div
+            ></a>
+            <a href="https://kat2709.github.io/audio-player/" target="_blank"
+              ><div class="project audio-player"></div
+            ></a>
+            <a href="https://kat2709.github.io/tip-calculator/" target="_blank"
+              ><div class="project tip-calc"></div
+            ></a>
           </div>
         </div>
       </section>
@@ -106,10 +134,12 @@
               <img src="./assets/icons/phone.svg" alt="phone-icon" />
               <p>(+37533) 692-38-45</p>
             </li>
-            <li>
-              <img src="./assets/icons/github.svg" alt="github-icon" />
-              <p>kat2709</p>
-            </li>
+            <a href="https://github.com/kat2709" target="_blank">
+              <li class="github">
+                <img src="./assets/icons/github.svg" alt="github-icon" />
+                <p>kat2709</p>
+              </li>
+            </a>
             <li>
               <img src="./assets/icons/mail.svg" alt="mail-icon" />
               <p>6923845@mail.ru</p>
@@ -196,20 +226,29 @@
             <li>
               <h4>Problem-solving</h4>
               <div class="skills-box">
-                <div class="codewars"></div>
-                <div class="leetcode"></div>
-                <img
-                  src="https://wakatime.com/badge/user/018e5b54-8164-4ab0-bab3-9f87d3fbdcdb.svg"
-                  alt="wakatime"
-                />
+                <a href="https://www.codewars.com/users/kat2709" target="_blank"
+                  ><div class="solving-platf codewars"></div
+                ></a>
+                <a href="https://leetcode.com/u/kat2709/" target="_blank"
+                  ><div class="solving-platf leetcode"></div
+                ></a>
+                <a href="https://wakatime.com/@kat2709" target="_blank"
+                  ><div class="solving-platf wakatime"></div
+                ></a>
               </div>
             </li>
           </ul>
         </div>
         <div>
           <h3>Certificates</h3>
-          <div class="sertf rss-certf"></div>
-          <div class="sertf english-certf"></div>
+          <a href="https://app.rs.school/certificate/1u7d24zm" target="_blank"
+            ><div class="sertf rss-certf"></div
+          ></a>
+          <a
+            href="https://raw.githubusercontent.com/kat2709/rsschool-cv/refs/heads/gh-pages/assets/certificateEng.jpg"
+            target="_blank"
+            ><div class="sertf english-certf"></div
+          ></a>
         </div>
       </section>
     </main>
