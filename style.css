@@ -65,6 +65,10 @@ li::marker {
   margin-left: 20px;
 }
 
+.small-list li::marker {
+  color: #ffd148;
+}
+
 .right-list li {
   margin-top: 15px;
   margin-left: 20px;
@@ -76,7 +80,7 @@ li::marker {
   gap: 30px;
   max-width: 70%;
   border-right: 1px solid #c8c8c8;
-  padding: 0 10px 0 30px;
+  padding: 0 10px;
 }
 
 .right-section {
@@ -96,6 +100,58 @@ h3 {
 .about-text {
   margin-top: 20px;
   line-height: 1.5;
+}
+
+.projects-box {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  outline: 3px solid #ff9500;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 15px auto;
+  width: 240px;
+  height: 145px;
+  background-size: contain;
+}
+
+.coffee_house {
+  background-image: url(./assets/projects/coffee_house.PNG);
+}
+
+.library {
+  background-image: url(./assets/projects/library.PNG);
+}
+
+.nonogram {
+  background-image: url(./assets/projects/nonogram.PNG);
+}
+
+.memory-game {
+  background-image: url(./assets/projects/memory_game.png);
+}
+
+.hangman-game {
+  background-image: url(./assets/projects/hangman.PNG);
+}
+
+.snake-game {
+  background-image: url(./assets/projects/snake_game.PNG);
+}
+
+.img-gallery {
+  background-image: url(./assets/projects/img_gallery.PNG);
+}
+
+.audio-player {
+  background-image: url(./assets/projects/audio_player.PNG);
+}
+
+.tip-calc {
+  background-image: url(./assets/projects/tip_calc.PNG);
 }
 
 .right-section h3 {
@@ -157,7 +213,7 @@ h5 {
   gap: 5px;
 }
 
-.sertf{
+.sertf {
   outline: 3px solid #ff9500;
   cursor: pointer;
   border-radius: 10px;
@@ -168,9 +224,9 @@ h5 {
 }
 
 .rss-certf {
-  background-image: url(./assets/certificateRS.jpg);
+  background-image: url(./assets/certificate/certificateRS.jpg);
 }
 
 .english-certf {
-  background-image: url(./assets/certificateEng.jpg);
+  background-image: url(./assets/certificate/certificateEng.jpg);
 }
